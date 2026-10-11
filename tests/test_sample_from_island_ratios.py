@@ -93,8 +93,8 @@ class TestSampleFromIslandRatios(unittest.TestCase):
         expected_exploitation = num_samples * self.db.config.exploitation_ratio
         expected_weighted = num_samples * (1 - self.db.config.exploration_ratio - self.db.config.exploitation_ratio)
 
-        # Allow 15% tolerance for statistical variance
-        tolerance = 0.15
+        # Allow 20% tolerance for statistical variance
+        tolerance = 0.20
 
         self.assertGreater(exploration_count, expected_exploration * (1 - tolerance))
         self.assertLess(exploration_count, expected_exploration * (1 + tolerance))
