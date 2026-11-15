@@ -1,3 +1,5 @@
+Maintained fork of [algorithmicsuperintelligence/openevolve](https://github.com/algorithmicsuperintelligence/openevolve). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: Apache-2.0.
+
 # OpenEvolve
 
 <div align="center">
@@ -1041,3 +1043,10 @@ If you use OpenEvolve in your research, please cite:
 *If OpenEvolve helps you discover breakthrough algorithms, please consider starring this repository.*
 
 </div>
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/openevolve/commits) and [Pull Requests](https://github.com/lgcorzo/openevolve/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
